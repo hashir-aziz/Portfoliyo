@@ -4,7 +4,7 @@ import img3 from '../assets/Change Image Here.png'
 const More = () => {
   return (
     <>
-    <div  className='relative bg-white w-full lg:w-[94%] h-full mt-0  mx-auto '>
+    <div id='About'  className='relative bg-white w-full lg:w-[94%] h-full mt-0  mx-auto '>
         <div className='flex justify-center'> 
              <img className='  absolute -mt-[60px]  ' src={img2} alt="" />
         </div>
@@ -20,12 +20,12 @@ const More = () => {
                 <div className='sm:flex sm:justify-center font-inter text-base font-bold leading-tight'>
                     Who AM i 
                 </div>
-                <div className='lg:block hidden font-inter text-base font-bold leading-tight'>
+                {/* <div className='lg:block hidden font-inter text-base font-bold leading-tight'>
                   My Vision 
                 </div>
                 <div className='lg:block hidden font-inter text-base font-bold leading-tight'>
                  What I Do
-                </div>
+                </div> */}
             </div>
             <div className='px-5 mt-3 sm:mt-5 md:mt-10 lg:mt-14  font-inter text-base font-normal leading-36 text-justify'>
             Lorem ipsum dolor sit amet consectetur. Mi eros porta nisl massa nunc diam auctor consequat aliquam. Commodo commodo sit donec semper nunc in. Ma id auctor to consequat adipibulum laoreet. Faucibus justo sit facilisi ultrices facilisi. Aliquam porttitor.

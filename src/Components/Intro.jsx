@@ -9,7 +9,7 @@ const Intro = () => {
         
         <div className="container2 flex flex-col lg:flex-row justify-center items-center w-full lg:w-[87%] mx-auto lg:gap-10 relative">
             <div className="left text-center lg:text-left lg:mt-0">
-                <div className="font-inter text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold leading-10 lg:leading-[151.39px] mt-[0.1rem] max-w-[670px]">
+                <div className="font-inter text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold leading-10 lg:leading-[151.39px] mt-[0.1rem] py-4 max-w-[670px]">
                     I'M AWAIS <span className='text-blue-600'>ULLAH</span>
                 </div>
                 <div className='flex flex-wrap justify-center lg:justify-start mt-8 lg:mt-[90px] md:gap-5 lg:gap-5'>

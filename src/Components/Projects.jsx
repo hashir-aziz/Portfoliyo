@@ -12,7 +12,7 @@ import img8 from '../assets/Box8.png'
 const Projects = () => {
   return (
      <>
-    <div className='relative bg-white w-full lg:w-[94%] mx-auto'>
+    <div id='Work' className='relative bg-white w-full lg:w-[94%] mx-auto'>
     <div className='flex justify-center font-inter text-4xl lg:text-6xl pt-12 lg:pt-[150px] font-bold leading-tight'>
         MY BEST PROJECTS
     </div>

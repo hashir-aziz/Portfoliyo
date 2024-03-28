@@ -28,7 +28,7 @@ const cards = [
 const Stack = () => {
   return (
     <>
-     <div className="flex justify-center bg-[#252525] w-full h-full lg:w-[94%] mt-0 mx-auto">
+     <div id="Services" className="flex justify-center bg-[#252525] w-full h-full lg:w-[94%] mt-0 mx-auto">
   <div className="w-[85%] lg:w-full mx-auto">
     <div className="flex justify-center mx-auto">
       <div className="text-white font-inter text-5xl font-bold leading-16 pt-[100px]">
@@ -48,7 +48,7 @@ const Stack = () => {
             key={index}
           >
             <img className="w-[60px] h-[60px] lg:w-[80px] lg:h-[80px]  " src={explore.img} alt="" />
-            <div className="font-inter text-xl lg:text-2xl font-bold text-center lg:text-left">
+            <div className="font-inter text-xl lg:text-2xl font-bold  lg:text-left">
               {explore?.heading}
             </div>
             <div className="text-[#bbbbbb] font-inter text-base lg:text-lg font-normal leading-6 text-justify">
